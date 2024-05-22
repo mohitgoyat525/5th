@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+section {
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width:100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: -12px;
+    padding-right: -12px;
+    align-items: center;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.line {
+    width: 94px;
+    height: 7px;
+    background: #FC724D;
+}
+
+.line22 {
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 50px;
+    height: 2px;
+    background: rgba(231, 64, 64, 1);
+}
+
+.our {
+
+    min-width: 336px;
+    font-family: Montserrat;
+    color: rgba(37, 43, 66, 1);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.mt35 {
+    margin-top: 35px;
+}
+
+.about {
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: rgba(115, 115, 115, 1);
+
+}
+
+a {
+    align-self: center;
+    color: rgba(252, 114, 77, 1);
+    margin-right: 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.learn {
+
+    display: flex;
+    align-content: center;
+
+
+}
+
+.card {
+    width: 237px;
+    height: 292px;
+    padding-top: 12px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.mb24 {
+    margin-bottom: 24px;
+}
+
+.box1 {
+
+    width: 70px;
+    height: 76px;
+    padding: 22px 19px 22px 19px;
+    border-radius: 10px;
+    background-color: #B6D7FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 40px;
+
+
+}
+.cancer {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: rgba(37, 43, 66, 1);
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+.textcancer {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: rgba(115, 115, 115, 1);
+    margin-bottom: 35px
+}
+svg {
+    align-self: center;
+}
